@@ -1,6 +1,6 @@
 # Huddle-challenge-1
-My first attempt at create a desktop design of a website
-i am still trying to style the active button.
+My first attempt at creating a desktop design of a website
+i am still trying to style the active button, though.
 
 ## Table of contents
  The challenge
