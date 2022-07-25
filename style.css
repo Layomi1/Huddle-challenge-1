@@ -1,8 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,800;0,900;1,900&family=Poppins:wght@400;600&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,800;0,900;1,900&family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+
 body {
-     height: 100%;
+        margin: 0;
+        padding: 0;
+        background: url(../img/bg-mobile.svg);
+        height: 40%;
+        background-position: 5px 5px;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+        background-attachment: fixed;
+        background-color: hsl(257,40%,49%);
+        font-family: "Poppins";
+        color: #fff;
+    
+    }
+nav img {
+        margin-left: 25px;
+        width: 40%;
+        margin-bottom: 25px;
+    
+    }
+/*
+main{
+        justify-content: center;
+        align-items: center;
+        justify-items:center ;
+    
+    }*/
+
+img {
+    width: 85%;
+    margin-bottom: 0;
+    margin-left: 25px;
+    font-family: "Open sans";
+    }
+
+.aside h3 {
+    margin-left: 25px;
+    font-size: 25px;
+    margin-right: 15px;
+    margin-bottom: 8px;  
+    text-align: center;
+}
+.aside p {
+    margin-top: 0;
+    width: 80%;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 15px;
+    font-family: "Open Sans";
+    white-space: ;
+    
+    
+}
+
+
+    /*
+@media screen (min-width:1140px){
+body {
+     height: 100vh;8 
     margin: 0;
     padding: 0;
     background-image: url("../img/bg-desktop.svg");
@@ -57,8 +116,9 @@ button {
     border: 0 solid #fff;
     border-radius: 35px ;
     box-shadow: 2px 4px 6px rgb(82, 77, 77);
-    box-shadow: ;
+
 }
+
 button :active {
     background: blueviolet;
     border-color: blueviolet;
@@ -68,6 +128,9 @@ button :active {
 }
 button a {
     text-decoration: none;
+} 
+button a:hover {
+    color: black;
 }
 footer {
     display: flex;
@@ -94,93 +157,4 @@ footer {
     margin-left: 2em;
 
 }
-@media only screen and ( min-width:375px){
-    body {
-        width: 50%;
-    }
-
-nav img {
-    margin-top: 2px;
-    width: 15em;
-    height: 10em;
-    margin-bottom: 2px;
-    margin-left: 5em;
-    font-size: 3em;
-    
-}
-
-main {
-    display: grid;
-}
-
-img {
-    width: 110em;
-    height: 48em;
-    margin-left: 12em;
-    margin-right: 15em;
-    margin-bottom: 2px;
-    
-} 
-
-.aside {
-    margin-top: 5px;
-
-    
-}
-.aside h3 {
-    text-align: center;
-    margin-left: 2em;
-    font-size:7em;
-    margin-bottom:2px ;
-    font-family: "Poppins";
-    font-weight: 600;
-    text-justify: center;
-
-    word-spacing: 4px;
-    letter-spacing: 8px;
-    
-    
-}
-
-.aside p {
-    margin-top: 1px;
-    line-height: 1.2em;
-    margin-left: 2em;
-    font-size: 4.5em;
-    font-family: "open sans";
-    text-align: center;
-    text-anchor: 2px;
-
-}
-button {
-    font-size: 232x;
-    padding: 50px 29px;
-    width: 40%;
-    border-radius: 50px;
-    float: right;
-    margin-right:14em ;
-
-}
-
-
-footer {
-
-    float: right;
-    margin-left:   10mm;
-    margin-right: 10em;
-
-
-}
-
-.f img {
-    margin-right: 12px;
-}
-
-.t img {
-    
-}
-.i img {
-     margin-left: 
-
-    }
 }
